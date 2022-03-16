@@ -1,0 +1,72 @@
+.sidebar {
+  border-right: 1px solid #424f55;
+  flex: 0.2;
+  min-width: 250px;
+  margin-top: 10px;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.sidebar__TwitterIcon {
+  color: var(--twitter-color);
+  font-size: 34px !important;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.sidebar__tweet {
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  font-size: 15px !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  transition: 0.25s ease !important;
+  margin-top: 10px !important;
+  margin-bottom: 18px !important;
+}
+
+.sidebar__tweet:hover {
+  background-color: #0d87d8 !important;
+}
+
+.sidebar__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.sidebar__profile:hover {
+  background-color: #161e22;
+  border-radius: 30px;
+  color: var(--twiter-white);
+  transition: color 100ms ease-out;
+}
+
+sidebar__profile-verified {
+  display: flex;
+  align-items: center;
+}
+
+.flex-1 {
+  display: flex;
+}
+
+.sidebar__profile-name {
+  margin-left: 20px;
+}
+
+.sidebar__profile-name > span {
+  font-weight: lighter;
+  color: #5c7b8b;
+}
+
+.sidebar__profile > .MuiSvgIcon-root {
+  font-size: 20px;
+  color: #a6bbc5;
+}

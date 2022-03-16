@@ -1,0 +1,89 @@
+.widgets{
+    flex: 0.3;
+}
+
+.widgets__input{
+    display: flex;
+    align-items: center;
+    background: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.widgets__input > input{
+    border: none;
+    background: #1b2225;
+    flex: 1;
+    height: 44px;
+    padding-left: 50px;
+    color: #5c7b8b;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.widgets__searchIcon{
+    position: absolute;
+    margin-left: 15px;
+    color: #5c7b8b;
+}
+
+.widgets__widgetContainer{
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: #1b2225;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.widgets__widgetContainer-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.widgets__widgetContainer-header > h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.widgets__widgetContainer-header > .MuiSvgIcon-root{
+    font-size: 20px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    transition: .35s ease;
+}
+
+.widgets__widgetContainer-header > .MuiSvgIcon-root:hover{
+    background-color: #4b5a61;
+}
+
+.show-btn{
+    cursor: pointer;
+    padding: 20px 0;
+    transition: .25s ease;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.show-btn:hover{
+    background: #222c2e;
+}
+
+.showMore__btn{
+    flex: 1 !important;
+    margin-left: 20px !important;
+    text-transform: none !important;
+    padding: 0 !important;
+    color: var(--twitter-color) !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+
+}
+
+.showMore__btn:hover{
+    background: transparent !important;
+}
